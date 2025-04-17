@@ -24,3 +24,29 @@
   </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Scriptly - Profilo</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="profile.js" defer></script>
+</head>
+<body>
+  <h1>Benvenuto nel tuo profilo</h1>
+  <div id="profile">
+    <input type="file" id="profileImage" accept="image/*">
+    <input type="text" id="username" placeholder="Imposta il tuo username">
+    <button id="saveProfile">Salva Profilo</button>
+    <div id="profileInfo"></div>
+  </div>
+
+  <h2>Pubblica un annuncio</h2>
+  <textarea id="announcementText" placeholder="Scrivi il tuo annuncio..."></textarea><br>
+  <button id="publishAnnouncement">Pubblica</button>
+
+  <div id="announcements">
+    <!-- Annunci pubblicati dagli utenti -->
+  </div>
+</body>
+</html>
