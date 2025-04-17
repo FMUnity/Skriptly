@@ -1,0 +1,103 @@
+
+body {
+  background-color: #000;
+  color: #14D928;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+img {
+  width: 150px;
+  margin: 20px 0;
+}
+
+form {
+  margin-top: 30px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background-color: #111;
+  color: #14D928;
+  border: 1px solid #14D928;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #14D928;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.register-link {
+  margin-top: 20px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+  background-color: #111;
+  color: #14D928;
+  margin: 15% auto;
+  padding: 40px;
+  border: 2px solid #14D928;
+  width: 60%;
+  font-size: 2em;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 10px;
+}
+
+.close-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #14D928;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+#profile {
+  margin-top: 20px;
+}
+
+#profile input[type="file"] {
+  margin-bottom: 10px;
+}
+
+#profile input[type="text"] {
+  padding: 10px;
+  margin: 10px;
+}
+
+#announcements {
+  margin-top: 20px;
+}
+
+#announcements div {
+  padding: 10px;
+  background-color: #222;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

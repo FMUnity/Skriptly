@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Scriptly - Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js" defer></script>
+</head>
+<body>
+  <h1>BENVENUTO SU SCRIPTLY</h1>
+  <img src="https://iili.io/31updeS.png" alt="Logo Scriptly">
+  <form id="authForm">
+    <input type="email" id="email" placeholder="Email" required><br>
+    <input type="password" id="password" placeholder="Password" required><br>
+    <button type="submit">Accedi / Registrati</button>
+    <div class="register-link">Se hai già un account, inserisci i tuoi dati.</div>
+  </form>
+  <div id="successModal" class="modal">
+    <div class="modal-content">
+      ORA CI SEI DENTRO<br>
+      <button class="close-btn" onclick="closeModal()">Chiudi</button>
+    </div>
+  </div>
+</body>
+</html>
